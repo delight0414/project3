@@ -1,12 +1,10 @@
+## 🚩Project - C.P. Company
 
-# 🚩Project - C.P. Company
-
-### 📰 Intro
+#### 📰 Intro 
 React로 개발한 개인프로젝트입니다. GSAP Library를 사용해서 Parallax 웹사이트를 구현하였습니다. 
 Styled-components로 일관된 스타일링을 하였고 Github로 웹호스팅하였습니다.
-
-
-### 👩‍💻 Stack
+##
+#### 👩‍💻 Stack 
 <div>
   <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white">
   <img src="https://img.shields.io/badge/Redux-764ABC?style=for-the-badge&logo=redux&logoColor=white">
@@ -15,8 +13,9 @@ Styled-components로 일관된 스타일링을 하였고 Github로 웹호스팅�
   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
 </div>
 
-### 💻 Code review
-1. styled components를 쓴 탓에 className으로 DOM을 참조하기 쉽지않아서 useState를 사용하기로 했다
+##
+#### 💻 Code review
+🔸 styled components를 쓴 탓에 className으로 DOM을 참조하기 쉽지않아서 useState를 사용하기로 했다
 ```javascript
 const [isOpen, setIsOpen]=useState(false);
 
@@ -39,7 +38,7 @@ return(
 ```
 
 
-2. styled components를 쓰려면 GlobalStyle이라는 전역 스타일을 설정해야한다. (+styled-reset)
+🔸 styled components를 쓰려면 GlobalStyle이라는 전역 스타일을 설정해야한다. (+styled-reset)
 ```javascript
 //src/styles/GlobalStyle.js
 import { createGlobalStyle } from 'styled-components';
